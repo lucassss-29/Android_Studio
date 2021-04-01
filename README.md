@@ -1,7 +1,5 @@
 # Android_Studio
-Đây là nơi để lưu lại các bài tập trong mỗi tuần môn học Lập trình Di Động:
-Thông tin thành viên:
-1. Dương Văn Sơn 1720200 (NT)
-2. Nguyễn Minh Tiến 1720235
-3. Châu Chấn Vĩ 1720262
-4. Lý Thanh Nhã  1620162
+Đây là thư mục chứa sản phẩm của nhóm 1.
++ Report: nơi để các thành viên thêm hình ảnh của mình vào
++ Product: nơi để sản phẩm là giao diện của nhóm
+
