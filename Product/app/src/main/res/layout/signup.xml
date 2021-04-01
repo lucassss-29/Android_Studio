@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngtree_food_western_food_simple_poster_background_image_25130"
+    android:foreground="700"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/SignUp"
+        android:layout_width="294dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="32dp"
+        android:text="Sign Up"
+        android:textColor="#000"
+        android:textSize="80sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/user">
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btsignup"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="40dp"
+        android:layout_marginBottom="213dp"
+        android:background="FA4A0C"
+        android:rotationX="0"
+        android:text="Sign Up"
+        android:textColor="#AD1457"
+        app:backgroundTint="#FF5722"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/password"
+        tools:layout_editor_absoluteX="30dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="Welcome to our App!!"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btsignup"
+        app:layout_constraintVertical_bias="0.673" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="80dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/username" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="93dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginLeft="156dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/pass" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

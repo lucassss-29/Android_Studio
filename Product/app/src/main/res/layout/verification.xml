@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="375dp"
+    android:layout_height="812dp"
+    android:layout_column="3"
+    android:background="@drawable/group_88"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="296dp"
+        android:layout_height="40dp"
+        android:fontFamily="sans-serif"
+
+        android:text="Verification Code"
+        android:textColor="#000000"
+        android:textSize="36.4dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="179dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/login3"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="-93dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="296dp"
+        android:layout_height="167dp"
+        android:layout_weight="0.8"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/login1"
+        tools:layout_editor_absoluteX="-41dp"
+        tools:layout_editor_absoluteY="-83dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="134dp"
+        android:layout_height="92dp"
+        android:layout_weight="0.2"
+        app:srcCompat="@drawable/login2"
+        tools:layout_editor_absoluteX="-51dp"
+        tools:layout_editor_absoluteY="-21dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="236dp"
+        android:layout_height="38dp"
+        android:fontFamily="sans-serif"
+        android:text="Please type verification code sent to prelookstudio@gmail.com"
+        android:textColor="#9796A1"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="275dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:fontFamily="sans-serif"
+        android:text="I don't recevie a code!"
+        android:textColor="#5B5B5E"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="21dp"
+        android:fontFamily="sans-serif"
+        android:text="Please resend"
+        android:textColor="#FE724C"
+        android:textSize="14dp"
+        tools:layout_editor_absoluteX="199dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="375dp"
+        android:layout_height="258dp"
+        android:background="@color/gray"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="@string/btn7"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="@string/btn4"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="@string/btn9"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="@string/btn3"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="@string/btn5"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <Button
+        android:id="@+id/btn8"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="@string/btn8"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="676dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#D2D5DB"
+        app:icon="@drawable/delete"
+        app:iconTint="#3F434A"
+        tools:layout_editor_absoluteX="281dp"
+        tools:layout_editor_absoluteY="734dp" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="1"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+
+        android:padding="0dp"
+        android:text="@string/btn2"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="@string/btn6"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="618dp" />
+
+    <Button
+        android:id="@+id/btn0"
+        android:layout_width="117dp"
+        android:layout_height="58dp"
+        android:fontFamily="sans-serif"
+        android:gravity="center_horizontal"
+        android:padding="0dp"
+        android:text="0"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        app:backgroundTint="#FFFFFF"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="734dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ellipse_128"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/ellipse_126"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="74dp" />
+
+    <EditText
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="#FE724C"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="@+id/editText"
+        tools:layout_editor_absoluteX="33dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:text="6"
+        android:textAlignment="center"
+        android:textColor="#FE724C"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText2"
+        app:layout_constraintTop_toTopOf="@+id/editText2"
+        tools:layout_editor_absoluteX="123dp" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FE724C"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText3"
+        app:layout_constraintTop_toTopOf="@+id/editText3"
+        tools:layout_editor_absoluteX="218dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="59dp"
+        android:layout_height="57dp"
+        android:text="5"
+        android:textAlignment="center"
+        android:textColor="#FE724C"
+        android:textSize="25dp"
+        tools:layout_editor_absoluteX="297dp"
+        tools:layout_editor_absoluteY="348dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

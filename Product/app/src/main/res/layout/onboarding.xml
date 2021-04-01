@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="285dp"
+        android:layout_height="345dp"
+        app:srcCompat="@drawable/sa"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="389dp"
+        android:layout_height="69dp"
+        android:text="Our app can send you everywhere, even space. For only $2.99 per month"
+        android:textAlignment="center"
+        android:textColor="#616772"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="305dp"
+        android:layout_height="98dp"
+        android:text="Browse your menu and order directly"
+        android:textColor="#131A38"
+        android:textSize="35dp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView2"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        tools:layout_editor_absoluteY="397dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="84dp"
+        android:layout_height="97dp"
+        android:text=""
+        app:backgroundTint="#EF6C00"
+        app:cornerRadius="100dp"
+        app:icon="@drawable/arrow"
+        app:iconSize="40dp"
+        app:iconTintMode="src_in"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        tools:layout_editor_absoluteY="618dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

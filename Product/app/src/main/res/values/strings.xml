@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Layout_Week_1</string>
+    <string name = "btn2">2<br><small><small><small><small>ABC</small></small></small></small></br></string>
+    <string name = "btn3">3<br><small><small><small><small>DEF</small></small></small></small></br></string>
+    <string name = "btn4">4<br><small><small><small><small>GHI</small></small></small></small></br></string>
+    <string name = "btn5">5<br><small><small><small><small>JKL</small></small></small></small></br></string>
+    <string name = "btn6">6<br><small><small><small><small>MNO</small></small></small></small></br></string>
+    <string name = "btn7">7<br><small><small><small><small>PQRS</small></small></small></small></br></string>
+    <string name = "btn8">8<br><small><small><small><small>TUV</small></small></small></small></br></string>
+    <string name = "btn9">9<br><small><small><small><small>WXYZ</small></small></small></small></br></string>
+</resources>
